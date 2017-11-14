@@ -42,15 +42,15 @@ There will be a two hour seminar each week. The seminar involves weekly readings
 
 Short weekly assignments will be discussed and assigned in class. They generally include 1) being a primary reader for an assigned reading, and 2) contributing to crowd-sourced literature reviews on particular topics.
 
-All students will write a final paper on any area of their choice. These papers will be compiled into a free and open-source book reviewing the area of cognitive technologies. Additional information about the final paper will be provided in class. 
+All students will write a final paper on any area of their choice. These papers will be compiled into a free and open-source book reviewing the area of cognitive technologies. Additional information about the final paper will be provided in class.
 
 ### Grading (total of 100)
 
 The percentage grade is determined from the following components.
 
-||||
+|||
 |:--|:--|
-|						||Total %|
+|						|Total %|
 |Assignments	|		50%|
 |Final Paper				|	50%|
 
