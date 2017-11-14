@@ -17,87 +17,42 @@ Instructor
 - mcrump@brooklyn.cuny.edu
 
 
-Website:  [http://crumplab.github.io/courses/experimental](http://crumplab.github.io/courses/experimental)
+Website:  [http://crumplab.github.io/cognitivetechnologies](http://crumplab.github.io/cognitivetechnologies)
 
-### Catalog Description
+## Description
 
 2 hours lecture, 3 credits
 
-Basic principles of experimental psychology and experimental methodology. A variety of specific content areas in psychology, including those in social psychology, learning, perception, and cognitive psychology. Laboratory replication of classic experiments from these content areas. Writing intensive course
+This seminar course surveys intersections between research and theory in the cognitive sciences and emerging technologies across diverse domains. A general goal is to illustrate how basic research and theory development in cognition has spurred and supported the creation of particular applied technologies. Specific goals include surveying state-of-the art technologies that have applications for augmenting human cognition, as well as considering how emerging technologies create new opportunities for current and future research into cognitive and brain processes.
 
-### Course Objectives
+NOTE: The schedule and procedures described in this syllabus are subject to change in the event of extenuating circumstances. You will always be notified of changes both in class AND by posts to the class website.
 
-My goal is for you to learn:
+## Weekly schedule and readings
 
-1. To read and evaluate psychological literature
-2. The basics of scientific methodology in psychology. This will be achieved by working through most of the important steps involved in conducting experimental research
-3. How research benefits from being conducted as part of a research team and in the context of a critical community of peers
-4.	Whether you may be interested in other courses and programs that involve empirical research
-5.	To evaluate claims like those presented in the media (e.g., do video games improve your attention, etc.), and understand the differences between science and pseudoscience
-
-NOTE: The schedule and procedures described in this syllabus are subject to change in the event of extenuating circumstances. You will always be notified of changes both in class AND by posts to the class website. Your enrollment in the course represents your acknowledgment and acceptance of the non-negotiable policies described in the syllabus.
+The weekly schedule and readings area available [here](http://crumplab.github.io/cognitivetechnologies):
 
 
-### Lecture Schedule
+## Course Structure:
 
-|Lecture|	Date|	Topic|	Chapter|
-|:--|:--|:--|:--|
-|1|	28-Aug|	Course Overview|	1|
-||4-Sep	|NO CLASS Labor Day	||
-|2|	11-Sep|	Reading |	2|
-|3|	18-Sep|	Brain Training	|3|
-|4|	25-Sep|	Appifying Education |	4|
-|5|	2-Oct |	 |	5|
-|6|16-Oct	|Factorial Designs II|	5|
-|7|23-Oct	|Factorial Designs III|	5|
-|8|30-Oct	|Midterm|	|
-|9|6-Nov	|Theory and Phenomena|6|
-|10|13-Nov	|Research Ethics|7|
-|11|20-Nov	|Control Problems I|8|
-|12|27-Nov	|Control Problems II|8|
-|13|4-Dec	|Communicating Research|12|
-|13|11-Dec	|Open Science||
+### The Seminar
 
+There will be a two hour seminar each week. The seminar involves weekly readings and discussions covering a wide variety of cognitive technologies. Typically, each week will involve 1.5 hours for the assigned readings, and .5 hours for student discussion of assigned literature reviews for each week (e.g., students find a paper on the topic and briefly describe it to the class. This allows for a crowd-sourced approach to reviewing the literature.)
 
-### Important dates
+### Assignments and Final Paper
 
-|Date| Event|
-|:--|:--|
-|Thursday, August 31|Last day to add a course|
-|Thursday, September 14| Last day to drop a course without a grade of "W"|
-|Friday, September 15 |Last day to apply for Fall 2017 Graduation|
-|Thursday, November 9| Last day to resolve Spring and Summer 2017 incomplete grade (INC)|
-|Friday, November 10| Last day to withdraw from a course with a W (non-penalty) grade|
+Short weekly assignments will be discussed and assigned in class. They generally include 1) being a primary reader for an assigned reading, and 2) contributing to crowd-sourced literature reviews on particular topics.
 
+All students will write a final paper on any area of their choice. These papers will be compiled into a free and open-source book reviewing the area of cognitive technologies. Additional information about the final paper will be provided in class. 
 
-### Additional resources
+### Grading (total of 100)
 
-Supplementary material will be posted on the course website. Lab instructors may recommend a text that specifically outlines the APA format and writing APA style research reports. This course will require use of the web, internet tools, and open-source (free) computing tools available in the lab.
-
-### Course Structure:
-
-## The Lecture
-
-There will be a two hour lecture each week. The lecture covers material that is available in the text book. The course schedule outlines chapters that should be read prior to each lecture. Some lectures will require reading of supplementary material, and access to these materials will be posted online using the course website. The lectures will also cover material that is thematically related to that presented in the textbook. The purpose of the lecture is to cover important concepts in experimental psychology, and prepare you for conducting psychological research in the laboratory. You will be tested on material from the lectures and textbook in two exams: a midterm, and a cumulative final exam.
-
-## Grading (total of 100)
-
-Your final grade combines your performance in the lab and lecture portions of the course. The percentage grade is determined from the following components.
+The percentage grade is determined from the following components.
 
 ||||
-|:--|:--|:--|
+|:--|:--|
 |						||Total %|
-|Lecture|||
-||Assignments & Attendance (lab and lecture)	|		20%|
-||Midterm 				|	10%|
-||Final exam (cumulative) 		|	25%|
-||Extra Credit				|	up to 2% (see below)|
-|Lab||
-||Paper 1 				|	10%|
-||Paper 2 				|10%|
-||Paper 3 				|	15%|
-||Presentation 1 	|			5%|
-||Presentation 2  |				5%|
+|Assignments	|		50%|
+|Final Paper				|	50%|
 
 Percentage grades are converted to letter grades according to the following rubric.
 
@@ -117,34 +72,26 @@ Percentage grades are converted to letter grades according to the following rubr
 |A	|93.33-96.66|
 |A+	|96.67-100|
 
-
-## Lecture and Lab Assignments and Attendance
-
-The lecture portion will involve weekly assignments that are to be completed electronically on blackboard. Assignments are usually short quizzes (10-20 questions). “Assignments & Attendance” accounts for 20% of the final grade. The 20% is computed from the assignments, but can be decreased as a result of poor attendance. If a student is late or misses more than 3 classes, then each additional late/missed class will result in subtracting 1% from the 20% for Assignments and Attendance.
-
-Lecture attendance is taken every lecture at the very beginning of class. Latecomers who miss attendance will not be allowed to record their attendance, and will be recorded as absent.
-
-The lab portion will involve weekly assignments completed in the lab. Attendance will also be taken in the lab each week. It is absolutely critical that you arrive to labs on time. If you do not arrive on time you will be given a late. If you are late or miss a lab more than three times, then you will be penalized for each additional lateness or absence by 1% of from the 20% for Assignments and Attendance.
-
-If you do have to miss class due to exceptional circumstances, please make arrangements to get notes from a classmate
-
-
 ## University’s policy on Academic Integrity
 
-The faculty and administration of Brooklyn College support an environment free from cheating and plagiarism. As a student, you are personally responsible for being aware of what constitutes cheating, and plagiarism; and, for avoiding both. You can view the complete text of the CUNY Academic Integrity Policy here:
-[http://www.brooklyn.cuny.edu/bc/policies](http://www.brooklyn.cuny.edu/bc/policies)
-If a faculty member suspects a violation of academic integrity, and upon investigation, confirms that violation, or if the student admits the violation, the faculty member MUST report the violation.
+CUNY regards acts of academic dishonesty (e.g. plagiarism, cheating on examinations, obtaining unfair advantage, and falsification of records and official documents) as serious offenses against the values of intellectual honesty. It is committed to enforcing the CUNY Policy on Academic Integrity and will pursue cases of academic dishonesty according to its Academic Integrity Procedures.  For the full CUNY policy, please consult:  web.cuny.edu/academics/info-central/policies/academic-integrity.pdf.  
 
-## Missing an Exam or class
+For full guidelines on avoiding and detecting academic honesty, please read the online publication provided by the CUNY Provost’s office (especially SECTION I: FOR THE STUDENT, pp 3-17).  Go to:  [https://www.gc.cuny.edu/About-the-GC/Governance,-Policies,-Procedures/Detail?id=4827](https://www.gc.cuny.edu/About-the-GC/Governance,-Policies,-Procedures/Detail?id=4827) and click on Plagiarism Avoiding and Detecting.  
 
-Make-up exams will be given only when there is a “good” reason for having missed an exam. For example, if a sudden illness causes you to miss an exam, then you should be prepared to provide me with a brief note signed by your physician. Contact me before an exam in the event that you anticipate missing one. In the event of an emergency, contact me as soon as possible. If you are missing a class for religious reasons refer to the state law regarding non-attendance because of religious beliefs (p. 64 in the Undergraduate Bulletin or p. 40 of the Graduate Bulletin).
+Be sure you understand what academic dishonesty is so that you do not accidentally commit it. Remember that it is better to over-cite than under-cite.  Whether you intend to be dishonest or not, any dishonesty will be considered a serious breach of academic values.  You will be teaching undergraduate students about academic honesty, so it is especially important that you understand why honesty is important and how to avoid dishonesty.
 
-WARNING: This is not the kind of course for which you do not need to come to class, and read the textbook at the last minute and expect to do well on tests and papers. The material in this course builds in complexity across classes, and doing well in this course will require a constant moderate level of effort. If you join the course later or are unsure about anything please ask.
+## Students with Disabilities
 
-## Accessibility
+Quoted from: [https://www.gc.cuny.edu/Prospective-Current-Students/Student-Life/Resources](https://www.gc.cuny.edu/Prospective-Current-Students/Student-Life/Resources)
 
-It is important to me that the course be accessible to all students. In order to receive disability-related academic accommodations students must first be registered with the Center for Student Disability Services. Students who have a documented disability or suspect they may have a disability are invited to set up an appointment with the Director of the Center for Student Disability Services, Ms. Valerie Stewart-Lovell at 718-951-5538. If you have already registered with the Center for Student Disability Services please provide me with the course accommodation form so we may discuss your specific accommodation. A guide and more information can be found here [http://catsweb.cuny.edu](http://catsweb.cuny.edu)
+"A disability is any physical or mental impairment that substantially limits one or more major life activities. A person is considered to be a person with a disability if he/she has the disability, has a record of the disability, or is regarded as having the disability. Under the Americans with Disabilities Act of 1990 and Section 504 of the Rehabilitation Act of 1973, qualified persons with disabilities are entitled to reasonable accommodations to achieve non-discriminatory access to programs, services, and activities of the GC. Some examples of covered disabilities are visual and hearing impairments, mobility impairments, impairment of hand function, and such “hidden” disabilities as AIDS/HIV, learning disabilities, ADD and ADHD, heart conditions, chronic fatigue syndrome, and being in recovery from substance abuse. The Graduate Center does not discriminate on the basis of disability in the admission and retention of students. To ensure equal access for persons with disabilities to all academic and other programs, services, and activities of the GC, as required by law, appropriate accommodations will be made. These may include auxiliary aids and services for students with visual impairments (readers/library assistants and such technology as adaptive computer software and hardware, etc.); qualified sign-language interpreters; scribes; extended or divided time on examinations for students with learning disabilities or reduced physical stamina; adjustments in course load when appropriate; voice-recognition software; use of a computer for exams; and taping classes.
 
-## Email Correspondence
+"Adaptive equipment and computer software are available at the Graduate Center. Computer users have access to screen-character enlargement, text-to-speech, and optical-character-recognition scan-and-read software, a closed-circuit television and voice-recognition software. For students with hearing impairments, the Graduate Center has available a personal FM listening system (for use on an individual basis for classes and meetings). The auditoriums are equipped with infrared equipment to assist those with hearing impairments. Contact Ms. Lerner or Miss Perram in Student Affairs to request accommodation and for additional information about facilities and services available to students with disabilities.
 
-I will regularly use e-mail to send out announcements, changes in the syllabus, reminders about tests or due dates etc. It is your responsibility to check e-mail regularly to keep up-to-date with these announcements. I will use the e-mail address you have listed with the College. Therefore, please make sure that this is indeed the correct address.
+"The Mina Rees Library can provide students with disabilities with such services as staff assistance in catalog searches and location of books and journals.
+
+Students with disabilities should register with Security and Public Safety (Room 9117; Telephone:1-212-817-7761) so that provision may be made for their safety should an emergency arise.
+
+"Users of TDD (Telecommunications Devices for the Deaf) within New York state should call the Telecommunications Service at 711 or at 1-800-662-1220. Users of TDD outside New York state should call their local Telecommunications Service.
+
+"The Vice President for Student Affairs is the 504/ADA Coordinator (Room 7301; 817-7400). For more information (with confidentiality) contact Sharon Lerner or Elise Perram (212-817-7400 or disabilityservices@gc.cuny.edu) and consult the Graduate Center Student Handbook."
