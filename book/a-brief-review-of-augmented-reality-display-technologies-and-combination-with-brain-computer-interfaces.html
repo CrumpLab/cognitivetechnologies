@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Cognitive Technologies: From Theory and Data to Application</title>
+  <meta name="description" content="Papers on assorted cognitive technologies">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Cognitive Technologies: From Theory and Data to Application" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Papers on assorted cognitive technologies" />
+  <meta name="github-repo" content="CrumpLab/OER_bookdown" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Cognitive Technologies: From Theory and Data to Application" />
+  
+  <meta name="twitter:description" content="Papers on assorted cognitive technologies" />
+  
+
+<meta name="author" content="Matthew Crump">
+
+
+<meta name="date" content="2018-05-29">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="computational-classification-techniques-for-biomedical-and-clinical-big-data.html">
+<link rel="next" href="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Cognitive Technologies</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="1" data-path="reflections-on-our-tour-of-cognitive-technologies.html"><a href="reflections-on-our-tour-of-cognitive-technologies.html"><i class="fa fa-check"></i><b>1</b> Reflections on our tour of Cognitive Technologies</a></li>
+<li class="chapter" data-level="2" data-path="computational-classification-techniques-for-biomedical-and-clinical-big-data.html"><a href="computational-classification-techniques-for-biomedical-and-clinical-big-data.html"><i class="fa fa-check"></i><b>2</b> Computational Classification Techniques for Biomedical and Clinical Big Data</a><ul>
+<li class="chapter" data-level="2.1" data-path="computational-classification-techniques-for-biomedical-and-clinical-big-data.html"><a href="computational-classification-techniques-for-biomedical-and-clinical-big-data.html#abstract"><i class="fa fa-check"></i><b>2.1</b> Abstract</a></li>
+<li class="chapter" data-level="2.2" data-path="computational-classification-techniques-for-biomedical-and-clinical-big-data.html"><a href="computational-classification-techniques-for-biomedical-and-clinical-big-data.html#introduction"><i class="fa fa-check"></i><b>2.2</b> Introduction</a></li>
+<li class="chapter" data-level="2.3" data-path="computational-classification-techniques-for-biomedical-and-clinical-big-data.html"><a href="computational-classification-techniques-for-biomedical-and-clinical-big-data.html#previous-work"><i class="fa fa-check"></i><b>2.3</b> Previous Work</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="computational-classification-techniques-for-biomedical-and-clinical-big-data.html"><a href="computational-classification-techniques-for-biomedical-and-clinical-big-data.html#topic-modeling"><i class="fa fa-check"></i><b>2.3.1</b> Topic Modeling</a></li>
+<li class="chapter" data-level="2.3.2" data-path="computational-classification-techniques-for-biomedical-and-clinical-big-data.html"><a href="computational-classification-techniques-for-biomedical-and-clinical-big-data.html#neural-networks"><i class="fa fa-check"></i><b>2.3.2</b> Neural Networks</a></li>
+<li class="chapter" data-level="2.3.3" data-path="computational-classification-techniques-for-biomedical-and-clinical-big-data.html"><a href="computational-classification-techniques-for-biomedical-and-clinical-big-data.html#clustering"><i class="fa fa-check"></i><b>2.3.3</b> Clustering</a></li>
+<li class="chapter" data-level="2.3.4" data-path="computational-classification-techniques-for-biomedical-and-clinical-big-data.html"><a href="computational-classification-techniques-for-biomedical-and-clinical-big-data.html#word-sense-disambiguation"><i class="fa fa-check"></i><b>2.3.4</b> Word Sense Disambiguation</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="computational-classification-techniques-for-biomedical-and-clinical-big-data.html"><a href="computational-classification-techniques-for-biomedical-and-clinical-big-data.html#medical-and-clinical-applications"><i class="fa fa-check"></i><b>2.4</b> Medical and Clinical Applications</a></li>
+<li class="chapter" data-level="2.5" data-path="computational-classification-techniques-for-biomedical-and-clinical-big-data.html"><a href="computational-classification-techniques-for-biomedical-and-clinical-big-data.html#clerical-applications"><i class="fa fa-check"></i><b>2.5</b> Clerical Applications</a></li>
+<li class="chapter" data-level="2.6" data-path="computational-classification-techniques-for-biomedical-and-clinical-big-data.html"><a href="computational-classification-techniques-for-biomedical-and-clinical-big-data.html#real-world-applications-and-future-work"><i class="fa fa-check"></i><b>2.6</b> Real World Applications and Future Work</a></li>
+<li class="chapter" data-level="2.7" data-path="computational-classification-techniques-for-biomedical-and-clinical-big-data.html"><a href="computational-classification-techniques-for-biomedical-and-clinical-big-data.html#conclusion"><i class="fa fa-check"></i><b>2.7</b> Conclusion</a></li>
+<li class="chapter" data-level="2.8" data-path="computational-classification-techniques-for-biomedical-and-clinical-big-data.html"><a href="computational-classification-techniques-for-biomedical-and-clinical-big-data.html#references"><i class="fa fa-check"></i><b>2.8</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html"><a href="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html"><i class="fa fa-check"></i><b>3</b> A Brief Review of Augmented Reality Display Technologies and Combination with Brain-Computer Interfaces</a><ul>
+<li class="chapter" data-level="3.1" data-path="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html"><a href="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html#abstract-1"><i class="fa fa-check"></i><b>3.1</b> Abstract</a></li>
+<li class="chapter" data-level="3.2" data-path="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html"><a href="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html#introduction-1"><i class="fa fa-check"></i><b>3.2</b> Introduction</a></li>
+<li class="chapter" data-level="3.3" data-path="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html"><a href="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html#short-overview-brain-structure"><i class="fa fa-check"></i><b>3.3</b> Short overview: Brain Structure</a></li>
+<li class="chapter" data-level="3.4" data-path="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html"><a href="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html#bci-technologies-and-basic-principles-of-brain-data-acquisition"><i class="fa fa-check"></i><b>3.4</b> BCI Technologies and Basic Principles of Brain Data Acquisition</a></li>
+<li class="chapter" data-level="3.5" data-path="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html"><a href="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html#common-electroencephalography-methods"><i class="fa fa-check"></i><b>3.5</b> Common Electroencephalography Methods</a><ul>
+<li class="chapter" data-level="3.5.1" data-path="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html"><a href="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html#electroencephalography-eeg-and-even-related-potential-erp"><i class="fa fa-check"></i><b>3.5.1</b> Electroencephalography (EEG) and Even-Related Potential (ERP)</a></li>
+<li class="chapter" data-level="3.5.2" data-path="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html"><a href="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html#eeg-channel-selection-examples"><i class="fa fa-check"></i><b>3.5.2</b> EEG Channel Selection Examples</a></li>
+<li class="chapter" data-level="3.5.3" data-path="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html"><a href="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html#electromyography-emg-and-electrooculography-eog"><i class="fa fa-check"></i><b>3.5.3</b> Electromyography (EMG) and Electrooculography (EOG)</a></li>
+</ul></li>
+<li class="chapter" data-level="3.6" data-path="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html"><a href="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html#brain-computer-interfaces-bci"><i class="fa fa-check"></i><b>3.6</b> Brain-Computer Interfaces (BCI)</a><ul>
+<li class="chapter" data-level="3.6.1" data-path="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html"><a href="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html#bci-functions"><i class="fa fa-check"></i><b>3.6.1</b> BCI Functions</a></li>
+<li class="chapter" data-level="3.6.2" data-path="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html"><a href="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html#different-types-of-bci"><i class="fa fa-check"></i><b>3.6.2</b> Different Types of BCI</a></li>
+<li class="chapter" data-level="3.6.3" data-path="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html"><a href="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html#applications-for-bci"><i class="fa fa-check"></i><b>3.6.3</b> Applications for BCI</a></li>
+</ul></li>
+<li class="chapter" data-level="3.7" data-path="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html"><a href="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html#augmented-reality-ar"><i class="fa fa-check"></i><b>3.7</b> Augmented Reality (AR)</a><ul>
+<li class="chapter" data-level="3.7.1" data-path="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html"><a href="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html#ar-technologies"><i class="fa fa-check"></i><b>3.7.1</b> AR Technologies</a></li>
+<li class="chapter" data-level="3.7.2" data-path="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html"><a href="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html#ar-devices"><i class="fa fa-check"></i><b>3.7.2</b> AR Devices</a></li>
+</ul></li>
+<li class="chapter" data-level="3.8" data-path="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html"><a href="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html#combining-ar-and-bci"><i class="fa fa-check"></i><b>3.8</b> Combining AR and BCI</a></li>
+<li class="chapter" data-level="3.9" data-path="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html"><a href="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html#limitations-and-interpretations"><i class="fa fa-check"></i><b>3.9</b> Limitations and Interpretations</a></li>
+<li class="chapter" data-level="3.10" data-path="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html"><a href="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces.html#references-1"><i class="fa fa-check"></i><b>3.10</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html"><a href="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html"><i class="fa fa-check"></i><b>4</b> A Methodology for Microdosing Research: Cognitive behavioral tasks as investigative tools for tracking low-dose effects of psilocybin</a><ul>
+<li class="chapter" data-level="4.1" data-path="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html"><a href="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html#abstract-2"><i class="fa fa-check"></i><b>4.1</b> Abstract</a></li>
+<li class="chapter" data-level="4.2" data-path="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html"><a href="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html#introduction-2"><i class="fa fa-check"></i><b>4.2</b> Introduction</a></li>
+<li class="chapter" data-level="4.3" data-path="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html"><a href="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html#the-third-wave-of-psychedelic-science"><i class="fa fa-check"></i><b>4.3</b> The Third Wave of Psychedelic Science</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html"><a href="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html#clinical-science"><i class="fa fa-check"></i><b>4.3.1</b> Clinical Science</a></li>
+<li class="chapter" data-level="4.3.2" data-path="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html"><a href="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html#neuroscience"><i class="fa fa-check"></i><b>4.3.2</b> Neuroscience</a></li>
+<li class="chapter" data-level="4.3.3" data-path="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html"><a href="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html#summary"><i class="fa fa-check"></i><b>4.3.3</b> Summary</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html"><a href="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html#microdosing"><i class="fa fa-check"></i><b>4.4</b> Microdosing</a></li>
+<li class="chapter" data-level="4.5" data-path="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html"><a href="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html#tasks-to-target-psychedelic-drug-effects"><i class="fa fa-check"></i><b>4.5</b> Tasks to Target Psychedelic Drug Effects</a><ul>
+<li class="chapter" data-level="4.5.1" data-path="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html"><a href="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html#cognitive-effects"><i class="fa fa-check"></i><b>4.5.1</b> Cognitive Effects</a></li>
+<li class="chapter" data-level="4.5.2" data-path="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html"><a href="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html#working-memory-and-inhibition-tasks"><i class="fa fa-check"></i><b>4.5.2</b> Working-Memory and Inhibition Tasks</a></li>
+<li class="chapter" data-level="4.5.3" data-path="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html"><a href="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html#cognitive-flexibility-tasks"><i class="fa fa-check"></i><b>4.5.3</b> Cognitive Flexibility Tasks</a></li>
+<li class="chapter" data-level="4.5.4" data-path="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html"><a href="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html#creativity-task"><i class="fa fa-check"></i><b>4.5.4</b> Creativity Task</a></li>
+<li class="chapter" data-level="4.5.5" data-path="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html"><a href="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html#perceptual-effects"><i class="fa fa-check"></i><b>4.5.5</b> Perceptual Effects</a></li>
+<li class="chapter" data-level="4.5.6" data-path="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html"><a href="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html#perceptual-processing-tasks"><i class="fa fa-check"></i><b>4.5.6</b> Perceptual Processing Tasks</a></li>
+</ul></li>
+<li class="chapter" data-level="4.6" data-path="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html"><a href="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html#discussion-and-concluding-remarks"><i class="fa fa-check"></i><b>4.6</b> Discussion and Concluding Remarks</a></li>
+<li class="chapter" data-level="4.7" data-path="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html"><a href="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html#references-2"><i class="fa fa-check"></i><b>4.7</b> References:</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html"><a href="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html"><i class="fa fa-check"></i><b>5</b> Perceiving the World Around Us: How Divergent Methods Illustrate Convergent Perspectives</a><ul>
+<li class="chapter" data-level="5.1" data-path="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html"><a href="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html#introduction-3"><i class="fa fa-check"></i><b>5.1</b> Introduction</a></li>
+<li class="chapter" data-level="5.2" data-path="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html"><a href="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html#the-visual-system-and-present-controversy"><i class="fa fa-check"></i><b>5.2</b> The Visual System and Present Controversy</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html"><a href="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html#neurophysiological-evidence"><i class="fa fa-check"></i><b>5.2.1</b> Neurophysiological Evidence</a></li>
+<li class="chapter" data-level="5.2.2" data-path="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html"><a href="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html#emotions-motivations-and-perception"><i class="fa fa-check"></i><b>5.2.2</b> Emotions, Motivations, and Perception</a></li>
+<li class="chapter" data-level="5.2.3" data-path="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html"><a href="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html#zooming-in-on-fear"><i class="fa fa-check"></i><b>5.2.3</b> Zooming in on Fear</a></li>
+<li class="chapter" data-level="5.2.4" data-path="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html"><a href="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html#other-emotions"><i class="fa fa-check"></i><b>5.2.4</b> Other Emotions</a></li>
+<li class="chapter" data-level="5.2.5" data-path="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html"><a href="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html#motivated-perception"><i class="fa fa-check"></i><b>5.2.5</b> Motivated Perception</a></li>
+<li class="chapter" data-level="5.2.6" data-path="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html"><a href="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html#conclusion-1"><i class="fa fa-check"></i><b>5.2.6</b> Conclusion</a></li>
+<li class="chapter" data-level="5.2.7" data-path="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html"><a href="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html#limits-to-these-approaches"><i class="fa fa-check"></i><b>5.2.7</b> Limits to these approaches</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html"><a href="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html#cognitive-and-computational-approaches"><i class="fa fa-check"></i><b>5.3</b> Cognitive and computational approaches</a><ul>
+<li class="chapter" data-level="5.3.1" data-path="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html"><a href="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html#cognitive-approaches"><i class="fa fa-check"></i><b>5.3.1</b> Cognitive Approaches</a></li>
+<li class="chapter" data-level="5.3.2" data-path="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html"><a href="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html#computational-approaches"><i class="fa fa-check"></i><b>5.3.2</b> Computational Approaches</a></li>
+<li class="chapter" data-level="5.3.3" data-path="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html"><a href="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html#conclusion-2"><i class="fa fa-check"></i><b>5.3.3</b> Conclusion</a></li>
+<li class="chapter" data-level="5.3.4" data-path="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html"><a href="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html#limits-to-these-approaches-1"><i class="fa fa-check"></i><b>5.3.4</b> Limits to these approaches</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html"><a href="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html#conclusion-and-implications"><i class="fa fa-check"></i><b>5.4</b> Conclusion and Implications</a></li>
+<li class="chapter" data-level="5.5" data-path="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html"><a href="perceiving-the-world-around-us-how-divergent-methods-illustrate-convergent-perspectives.html#references-3"><i class="fa fa-check"></i><b>5.5</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html"><i class="fa fa-check"></i><b>6</b> Brain Training and Cognition</a><ul>
+<li class="chapter" data-level="6.1" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#abstract-3"><i class="fa fa-check"></i><b>6.1</b> Abstract</a></li>
+<li class="chapter" data-level="6.2" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#introduction-4"><i class="fa fa-check"></i><b>6.2</b> Introduction</a></li>
+<li class="chapter" data-level="6.3" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#chess-and-music"><i class="fa fa-check"></i><b>6.3</b> Chess and Music</a><ul>
+<li class="chapter" data-level="6.3.1" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#near-and-far-transfer"><i class="fa fa-check"></i><b>6.3.1</b> Near and Far Transfer</a></li>
+<li class="chapter" data-level="6.3.2" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#a-meta-analysis-study"><i class="fa fa-check"></i><b>6.3.2</b> A Meta-Analysis Study</a></li>
+<li class="chapter" data-level="6.3.3" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#patterns-in-findings"><i class="fa fa-check"></i><b>6.3.3</b> Patterns in Findings</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#cognitive-training"><i class="fa fa-check"></i><b>6.4</b> Cognitive Training</a></li>
+<li class="chapter" data-level="6.5" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#cognitive-training-programs-do-they-work"><i class="fa fa-check"></i><b>6.5</b> Cognitive Training Programs: Do They Work?</a><ul>
+<li class="chapter" data-level="6.5.1" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#brain-training-games"><i class="fa fa-check"></i><b>6.5.1</b> Brain Training Games</a></li>
+<li class="chapter" data-level="6.5.2" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#bilingual-brain-training"><i class="fa fa-check"></i><b>6.5.2</b> Bilingual Brain Training</a></li>
+<li class="chapter" data-level="6.5.3" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#working-memory-training"><i class="fa fa-check"></i><b>6.5.3</b> Working Memory Training</a></li>
+</ul></li>
+<li class="chapter" data-level="6.6" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#fitnessphysical-activities"><i class="fa fa-check"></i><b>6.6</b> Fitness/Physical activities</a><ul>
+<li class="chapter" data-level="6.6.1" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#a-meta-analysis-study-1"><i class="fa fa-check"></i><b>6.6.1</b> A Meta-Analysis Study</a></li>
+</ul></li>
+<li class="chapter" data-level="6.7" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#combining-cognitive-and-aerobic-training"><i class="fa fa-check"></i><b>6.7</b> Combining Cognitive and Aerobic Training</a><ul>
+<li class="chapter" data-level="6.7.1" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#problems-with-the-research"><i class="fa fa-check"></i><b>6.7.1</b> Problems with the research</a></li>
+</ul></li>
+<li class="chapter" data-level="6.8" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#limitations-and-future-work"><i class="fa fa-check"></i><b>6.8</b> Limitations and Future Work</a><ul>
+<li class="chapter" data-level="6.8.1" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#long-term-effects"><i class="fa fa-check"></i><b>6.8.1</b> Long-Term Effects</a></li>
+<li class="chapter" data-level="6.8.2" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#various-age-groups"><i class="fa fa-check"></i><b>6.8.2</b> Various Age Groups</a></li>
+<li class="chapter" data-level="6.8.3" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#participants-with-health-problems"><i class="fa fa-check"></i><b>6.8.3</b> Participants with Health Problems</a></li>
+<li class="chapter" data-level="6.8.4" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#individual-vs.group-setting"><i class="fa fa-check"></i><b>6.8.4</b> Individual vs. Group Setting</a></li>
+</ul></li>
+<li class="chapter" data-level="6.9" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#conclusion-3"><i class="fa fa-check"></i><b>6.9</b> Conclusion</a></li>
+<li class="chapter" data-level="6.10" data-path="brain-training-and-cognition.html"><a href="brain-training-and-cognition.html#references-4"><i class="fa fa-check"></i><b>6.10</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references-5.html"><a href="references-5.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Cognitive Technologies: From Theory and Data to Application</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="a-brief-review-of-augmented-reality-display-technologies-and-combination-with-brain-computer-interfaces" class="section level1">
+<h1><span class="header-section-number">Chapter 3</span> A Brief Review of Augmented Reality Display Technologies and Combination with Brain-Computer Interfaces</h1>
+<p>Taylan Safak Ergun, Graduate Center of the City University of New York, May, 2018</p>
+<div id="abstract-1" class="section level2">
+<h2><span class="header-section-number">3.1</span> Abstract</h2>
+<p>In this paper, the aim of Brain-Computer Interface (BCI) studies and the technology of Augmented Reality (AR) display systems are briefly summarized. Different types of signal acquisition techniques and BCI strategies are compared by taking into account the target population and the goals that researchers planned. Additionally, some examples of the combination of both AR and BCI systems and the applications are included. The exponential acceleration of BCI and AR studies concerning the promising perspectives, designs, and achievements, as well as, its limitations and shortcomings are tackled based on recent studies.</p>
+</div>
+<div id="introduction-1" class="section level2">
+<h2><span class="header-section-number">3.2</span> Introduction</h2>
+<p>It has been shown through many studies that Brain-Computer Interaction (BMI) systems and Augmented Reality (AR) systems can help users with disabilities. Also, they provide a new level of technologies to create smart environments. In this brief review, Augmented Reality concept restricted to particular display technologies which are mostly used in experimental designs. AR and BCI systems spread to various fields. For example doctors can use the AR system by using Head Mounted Display (HMD) to gather real-time medical data from the patient’s body (Bichlmeier, Wimmer, Heining, &amp; Navab, 2007), on the other hand in our homes we can control electronic devices, lights with hand gestures, gaze movement and voice commands (“Microsoft, HoloLens” n.d ). Additionally, users can create holograms which allow them to visualize and work with their digital contents, users can interact with the virtually display objects or holograms. AR and tracking technologies improve the environment we engage in by using different sensors and various electronic devices, some examples of past and current BCI and AR studies and applications provided in this review.</p>
+</div>
+<div id="short-overview-brain-structure" class="section level2">
+<h2><span class="header-section-number">3.3</span> Short overview: Brain Structure</h2>
+<p>The human brain is divided into three parts: the Brainstem, the cerebrum, and the cerebellum. The cerebrum is also comprised of right and left hemispheres. Cerebral cortex is the surface of cerebrum and divided into four lobes that some of the functions take place as follows which is the Frontal lobe that provides cognitive functions such as social and moral reasoning and also executive functions (Chayer and Freedman, 2001); the Temporal lobe involved in emotional processing and auditory functions; parietal lobe is responsible for language skills (reading/writing) and attention; occipital lobe is used for visual processing. Since the BCI systems are used to complete different tasks, researchers should consider the related area of the brain while they are obtaining the data acquisitions according to their experimental goals. Some of the data acquisition methods are discussed in the following sections.</p>
+</div>
+<div id="bci-technologies-and-basic-principles-of-brain-data-acquisition" class="section level2">
+<h2><span class="header-section-number">3.4</span> BCI Technologies and Basic Principles of Brain Data Acquisition</h2>
+<p>The BCI system is based on translating neurophysiological signals to commands and control external devices (Sellers &amp; Donchin, 2006). There are two main techniques to implement such processes: Non-invasive BCI and Invasive BCI. Non-invasive BCI does not require any surgical procedures, instead, the brain activity is recorded from the skull with a channel cap. However, invasive BCI requires neurosurgery. A set of electrodes are attached to a specific region of the brain and signals are directly recorded from gray matter of the brain (Lebedev &amp; Nicolelis, 2006). Both techniques have drawbacks and benefits. Non-invasive BCI is the easiest, safest, and most practical method to elicit signals. However, it only provides a basic communication tool because of its low-resolution signals, since the skull and skin prevent it to acquire high-resolution signals (Lebedev &amp; Nicolelis, 2006). Since the usage of non-invasive methods is limited, Lebedev and Nicolelis (2006) suggested using invasive techniques for important goals such as controlling artificial limbs.</p>
+<p>Invasive BCI provides pretty accurate and more specific signals. Nonetheless, this approach has many problems as well. It requires invasive surgery to implant the microelectrodes. Due to the surgical procedure, infection or scar tissue is likely to occur over time. The scar tissue and/or infection prevents the acquiring of signals or decreases the quality of acquired signals over the course of time (Lebedev &amp; Nicolelis, 2006). However, they emphasized that reaching important goals, such as controlling leg prosthesis, are only possible with an ideal recording device that deals with possible consequences of long-term use of microelectrodes. This is because recording simultaneously from several areas of the brain will provide high-resolution signals.</p>
+<p>Partially-invasive BCI is another technique to measure and record the electrical activity. In this technique, electrodes are implanted on the surface of the cortex (Levine et al., 1999). Electrocorticography (ECoGs) serves as a partially-invasive recording method.</p>
+<p>To summarize, neither invasive BCI nor non-invasive BCI techniques for recording brain activity have an edge over one another. The utility of signal acquisition techniques should depend on the aim of the study. If researchers come up with new solutions for the limitations of the BCI system, both disabled and physically capable people will benefit from it accordingly.</p>
+</div>
+<div id="common-electroencephalography-methods" class="section level2">
+<h2><span class="header-section-number">3.5</span> Common Electroencephalography Methods</h2>
+<div id="electroencephalography-eeg-and-even-related-potential-erp" class="section level3">
+<h3><span class="header-section-number">3.5.1</span> Electroencephalography (EEG) and Even-Related Potential (ERP)</h3>
+<p>Electroencephalography (EEG) is one of the most common non-invasive BCI’s to measure and record brain activity. An individual is attached to an EEG machine with an electrode cup, the electrodes are placed on the user’s scalp to measure neurophysiological signals. The EEG devise is able to measure severe voltage (10-100 mV) alterations of nerve cells. It only provides information about the general mental state, such as sleep, awareness, and alertness. However, it does not detect minor alteration (1-10 mV) of nerve cells. For this reason, Event-Related Potential (ERP) is used to measure minor fluctuation. ERP is elicited either during a cognitive task that requires an individual to distinguish target stimulus from non-target stimuli (endogenous potential) or after presenting a sensory stimulus (exogenous potential). If an external stimulus is presented, it causes a decrease of electrical potential 100 ms later (N100), while if a participant is asked to distinguish one stimulus from other stimuli, it causes an increase of electrical potential 300 ms later (P300) (Müller-Putz, Scherer, &amp; Pfurtscheller, 2007).</p>
+</div>
+<div id="eeg-channel-selection-examples" class="section level3">
+<h3><span class="header-section-number">3.5.2</span> EEG Channel Selection Examples</h3>
+<p>To elicit P300, Piccione et al (2006) used four EEG channels and one EOG channel; Sellers and Donchin (2006) used three EEG channels. In these studies, low communication rates were attributed to the number of few channel selections (Hoffman et. al, 2008). In order to increase communication rates, Hoffman et al. (2008) assessed four different electrode configurations (4,8,16,32 electrodes). For testing classification, they used Bayesian Linear Discriminant Analysis and Fisher’s Linear Discriminant Analysis. For both BLDA and FLDA, there was a significant increase between the four electrode configuration and the eight electrode configuration. However, using more than eight electrodes provides a modicum increase for BLDA. The usage of 16 and 32 electrodes even decreased the performance for FLDA. They concluded the best electrode configuration includes 8 electrodes. It could be considered more user-friendly compared to 16 and 32 electrodes placed and provides better accuracy compared to four electrodes placed (Hoffman et. al, 2008).</p>
+<p>Takano et al. (2011) and Kansaku (2011) examined eight channels by comparing posterior - anterior channels set and middle - lateral channels set. According to results, the EEG recording from the posterior set and lateral sets gave better accuracy.</p>
+</div>
+<div id="electromyography-emg-and-electrooculography-eog" class="section level3">
+<h3><span class="header-section-number">3.5.3</span> Electromyography (EMG) and Electrooculography (EOG)</h3>
+<p>EMG and EOG are considered reliable sources of signal acquisition (Fatourechi, Bashashati, Ward &amp; Birch, 2007). Blum, Stauder, Euler, and Navab (2012) used Neural Impulse Actuator (NIA) to see the potential of the combination of BCI and a gaze tracker. NIA is able to read alpha brain waves, beta brain waves, electromyographic signals elicited by skeletal muscles, and electrooculographic signals triggered by eye movement. With acquired signals from EMG, Blum et al. (2012) achieved to create a user interface (UI) by switching normal vision to X-ray vision on a phantom patient.</p>
+</div>
+</div>
+<div id="brain-computer-interfaces-bci" class="section level2">
+<h2><span class="header-section-number">3.6</span> Brain-Computer Interfaces (BCI)</h2>
+<div id="bci-functions" class="section level3">
+<h3><span class="header-section-number">3.6.1</span> BCI Functions</h3>
+<p>Brain-Computer Interface (BCI), also known as Brain-Machine Interface (BMI) (Lebedev &amp; Nicolelis, 2006; Kansaku, 2011; Takano, Hata &amp; Kansaku, 2011), Mind-Machine Interface (MMI), Synthetic-Telepathy interface (STI) (Bogue, 2010), and Neural Interface System (NIS) (Hatsopoulos &amp; Donoghue, 2009), is a new technology that provides a promising way of communication, especially for neurologically disabled people. This interface does not rely on any physical movement. Instead, electrical signals from the cerebral cortex (Hill, Brunner &amp; Vaughan, 2011) are recorded and translated in order to control external devices. Essentially, users are exposed to a stimulus for making a choice or instructed to actuate a certain task, so that neurophysiological signals are elicited via a signal acquisition technique. In doing so, the connection between the nervous system and a machine is established. This connection provides the opportunity for users to not rely on their muscles or peripheral nerves to operate devices.</p>
+</div>
+<div id="different-types-of-bci" class="section level3">
+<h3><span class="header-section-number">3.6.2</span> Different Types of BCI</h3>
+<p>In order to elicit signals from brain activity, two main techniques can be mentioned, which are self-actuated BCIs and stimulus-driven BCIs. Self-actuated BCI is also known as self-paced BCI (Scherer, Chung, Lyon, Cheung &amp; Rao, 2010).</p>
+<div id="self-actuated-bci" class="section level4">
+<h4><span class="header-section-number">3.6.2.1</span> Self-actuated BCI</h4>
+<p>For self-actuated BCI, there are no certain stimuli. In this technique, the users determine the time in which they begin and stop to operate a certain mental task (Hill et al.,2011). Mental imagery, is a phenomenon in which a subject imagines to perform a given action, could be given as an example of self-actuated BCI. Scherer et al. (2010) used mental imagery as a control signal for simple commands<em>.</em> The users operated a Virtual Environment by thinking of moving their left hand, right hand, foot, and tongue. For instance, in order to make a right turn, they thought of their right hand. Elicited signals from the motor and pre-motor cortical areas via EEG enabled it to control the joystick. In doing so, the users achieved to find coins dispersed in the immersive virtual environment.</p>
+<p>The disadvantage of regulating users’ own brain activity (self-actuated BCI) is long-term training for controlling the system. What is more, Hill et al. (as cited in Hofmann, Vesin, Ebrahimi &amp; Diserens, 2007) showed that completely locked-in patients could not benefit from mental-imagery based BCI system, since the elicited signals were not satisfactory for communication.</p>
+<p>Treder and Blankertz (2010) developed a two-level typewriter called Hex-O-Spell layout, as an alternative to the classical matrix speller to eliminate crowding effect.</p>
+<p><em>Figure 1</em> Hex-O-Spell layout (taken from Treder &amp; Blankertz, 2010)</p>
+<p>In the Hex-O-Spell layout, numbers and symbols are arranged into a radial layout. There are six circles placed to create a hexagon. It is the first level of this layout. If one of these circles is selected, 5 symbols in a circle expand into another circle. In the second level, one circle remained empty for the purpose of returning to the first level in case of making a mistake. Users achieved to copy given German words by giving their attention to target symbol located in a circle (Treder &amp; Blankertz, 2010) (figure 1).</p>
+</div>
+<div id="stimulus-driven-bci" class="section level4">
+<h4><span class="header-section-number">3.6.2.2</span> Stimulus-driven BCI</h4>
+<p>For stimulus-driven BCI, there must be an external sensory stimulus to record signals. Unlike self-actuated BCI, the time for performing a task is determined by experimenters. When a user focused on a prescribed stimulus, BCIs can distinguish it with larger ERPs from given response to another stimulus. P300 based BCI (P300 speller or Donchin matrix speller) is an example of stimulus-driven BCI. The visual stimulus is a matrix consisting of letters and other symbols. The user focuses on one of the flashing icons in a 6 by 6 matrix. Each column and row of the matrix are highlighted in a random order. If the row or the column contains the chosen letter, a positive deflection in ERP is drawn out after roughly 300 milliseconds (Müller-Putz, Scherer, &amp; Pfurtscheller, 2007). In this technique, elicited control signals rely on the oddball paradigm that is a method in which more than one stimulus is presented, with one stimulus appearing less than the other stimuli.</p>
+<p>Scherer et al. (2010) used the P300 based visual evoked potential to give commands to the humanoid robot, which has the ability to move, grasp, and release objects, to interact with the environment in AR. The user was able to see the humanoid robot’s environment through the robot’s camera. In this way, the user could select an action based on objects in the image. When the user focused on the desired object, images are flickered. After the flicker occurred on the desired objects, the system recognized the given response and considered it as the user’s choice.</p>
+<p>Kansaku (2011) and Takano et al. (2011) developed a new BCI system by adding Augmented Reality (AR). To make a control panel, see-through Head-Mount Display (HMD) was added to the system as well. A USB camera attached to see-through HMD was used for detecting the AR marker. When an AR marker is detected by the camera, control panels that were a lamp or a TV appeared on either LCD monitor or see-through HMD. On this control panel, icons were used to control the device. Green and blue flickers instead of white and black flickers were preferred because Kansaku (2011) found that it provides a better subjective experience and better accuracy. In addition to this, Perra et al (as cited in Kansaku, 2011) confirmed that blue and green are the safest color combination for people with photosensitive epilepsy. The user focused on an icon with an action on it, such as turning on the lamp. The brain waves that are measured with the electrode cap were recorded and then the icon turned green and the desired action was performed.</p>
+<p>Piccione et al. (2006) used P300 based-BCI by recruiting disabled and physically capable people. They were instructed to move a blue ball from the starting point to the endpoint on the screen by focusing on one of the presented visual stimuli, which were four arrows. Intensification of an arrow in each trial was 150 milliseconds. Each arrow is randomly flickered every 2.5 seconds (interstimulus interval). Users accomplished to control a two-dimensional cursor. After each trial, researchers expected to elicit P300, if the users were able to focus on the target arrow. Elicited signals were classified by using some signal processing and mathematical procedures such as amplification and a band-pass filter.</p>
+<p>Sellers and Donchin (2006) used P300 with a four-choice paradigm and showed that ALS patients achieved to control BCI system. However, in this study, the obtained communication rates were low compared to state-of-the-art BCI (Hofmann et al.,2008). The cause of low communication rate was related to a few presented stimuli and relatively long interstimulus interval such as 2.5 seconds. In order to increase classification accuracy and communication rates, Hofmann et al. (2008) used a six-choice paradigm. Also interstimulus interval in their study was 400 ms. The reason for using a six-choice paradigm instead of a four-choice paradigm is that more stimuli decreases the probability for the target stimulus to be recognized easily. According to results of this experiment, all disabled users accomplished 100% classification accuracy as researchers had expected.</p>
+</div>
+</div>
+<div id="applications-for-bci" class="section level3">
+<h3><span class="header-section-number">3.6.3</span> Applications for BCI</h3>
+<p>Implemented studies regarding BCI and AR require a highly interdisciplinary approach. Biomedical engineers, rehabilitation engineers, neuroscientists, psychologists, computer scientists, applied mathematicians, and scholars from relevant disciplines contribute to this area.</p>
+<p>Studies show that the main reason for applying BCI system is to support disabled people’s daily activities. Komatsu et al. (as cited in Takano et al, 2011) found that patients with cervical spinal cord injury benefited from BCI system. Sellers and Donchin (2005) reported that ALS patients successfully controlled a four-choice P300-based BCI system. Kansaku (2011) demonstrated that both physically capable and quadriplegic users accomplished to control a lamp, a television, a hiragana speller, and a primitive robot.</p>
+<p>Blum et al. (2012) demonstrated that BCI technology can be used for enhancing the quality of surgeries by providing a user interface for medical doctors. Because surgeons need to see both inside the patient with X-ray vision and equipment, a suitable user interface had to meet the requirement of switching readily from regular vision to X-ray vision, and vice versa (Blum et al., 2012). Feedbacks collected from medical doctors showed that the system could be useful for surgeons if the noise due to weak Human-Computer Interaction design is resolved. Lalor et al., (2018) showed that participants successfully completed an immersive 3D game by using EEG-based BCI system. Steady-state visual evoked potential (SSVEP) were used to maintain binary control in the game (figure 2).</p>
+<p><em>Figure 2</em> Players maintain the character’s balance by directly focusing on a checkerboard (taken from Lalor, Kelly, Finuance, Burke, Smith, Riley, &amp; McDarby, 2005)</p>
+</div>
+</div>
+<div id="augmented-reality-ar" class="section level2">
+<h2><span class="header-section-number">3.7</span> Augmented Reality (AR)</h2>
+<div id="ar-technologies" class="section level3">
+<h3><span class="header-section-number">3.7.1</span> AR Technologies</h3>
+<p>Augmented reality (AR) aims at simplifying user life by creating direct or indirect real-time view of a real physical world. To do this computer-generated perceptual information superimposed to real world digitally (“Augmented Reality,”n.d.).</p>
+<p>Paul Milgram and Fumio Kishino defined the Milgram’s Reality-Virtuality Continuum, which shows the span of a real-to-virtual environment (Azuma, Baillot, Behringer, Feiner, Julier, &amp; Macintyre, 2001). In this demonstration Augmented Reality is one part of the Mixed Reality (MR) (Figure 3).</p>
+<p>Figure 3 Milgram’s Reality-Virtuality Continuum (taken from Azuma et al., 2001).</p>
+<p>According to Azuma (1997), augmented reality technology has three main requirements: Combination of real and virtual content, interactive in real time and registered in 3D. Augmented reality devices require to include these three key elements. (Billinghurst, Clark, &amp; Lee, 2015). Regardless of using similar devices such as head mounted displays (HMD) (or head-worn displays HWD), tracking systems, computer interfaces augmented reality differs from Virtual Reality. Different then VR, AR technology removes real objects or manipulates/replaces objects from the real environment (Carmigniani, Furht, Anisetti, Ceravolo, Damiani, &amp; Ivkovic, 2010). Removing objects from the real environment require covering those objects with an artificial computer-generated information. This virtual information matches to environment background to help the user to ignore the real objects (Carmigniani et al., 2010) There are some other main differences between AR and VR in terms of system requirements (figure 4). For example, AR system does not need a wide Field of View (FOV), since AR technology display can be non-immersive.</p>
+<p><em>Figure 4</em> Virtual Reality and Augmented Reality technology requirements (taken from Billinghurst et al., 2015).</p>
+<p>Augmentation of the real world can apply to all senses such as touch, smell, hearing (Krevelen &amp; Poelman, 2010), haptic and to the somatosensory system (“Augmented Reality,”n.d.; Carmigniani et al., 2010) but the vast majority of research focused on visual enhancements of reality.</p>
+</div>
+<div id="ar-devices" class="section level3">
+<h3><span class="header-section-number">3.7.2</span> AR Devices</h3>
+<p>There are many different devices for AR systems, but some devices such as tracking, computers, displays, and input devices are the most used ones in research (Carmigniani et al., 2010). In this review, I restricted AR definition to specific display technologies. Head mounted displays provide imagery in front of user’s eyes. There are two common types of HMD (figure 5), optical see-through and video see-through. Optical see-through uses the semi-transparent mirror. This mirror combines real-world image and augmented images, with this way users see augmented/enhanced scene through a transparent display. Video see-through systems include cameras, and opaque mirror since visual information from real world pass through camera system, the computer process the information and augmented scene displays on this opaque mirror (Azuma et al., 2001). Since the augmented scene information already processed by the computer, video see-through systems have more control over the combined display (Carmigniani et al., 2010).</p>
+<p><em>Figure 5</em> Two types of HWD’s. Optical see-through display (left), Video see-through display (right) (taken from Azuma et al., 2001).</p>
+<p><em>Figure 6</em> First display is a video-see-through, the middle one is an optical see-through and both of them are binocular HMD from Trivisio. The last one is a monocular HMD from Google Glass (taken from Billinghurst et al., 2015).</p>
+<p>In addition to HMD, handheld displays are becoming popular. Users can hold the AR employed devices in their hands, which makes the AR applications highly portable and more socially accepted then the HMD. Users can use Smart-phones, Tablet PC, and PDAs to run AR applications (Billinghurst et al., 2015). For example, Google’s ARCore software development kit allows users to build AR applications, by using several technologies such as light estimation, motion tracking, and environmental understanding (“ARCore,” 2018; “Google Developers, ARCore Overview,” 2018” ).</p>
+<div class="figure">
+<img src="media/image7.jpeg" />
+
+</div>
+<p><em>Figure 7</em> Playing a multi-player game with two PDAs (taken from Wagner et al., 2005)</p>
+<p>Figure 7 shows two people playing The Invisible Train game on PDA’s. Trains do not exist on the wooden miniature railroad track, players only see them through video see-through displays. According to Wagner et al. (2005), handheld AR interface allows untrained users to accomplish collaborative spatial tasks.</p>
+<p>Another version of AR display is Spatial Augmented Reality (SAR). Common versions are limited in mobility but users can use them without carrying or wearing the display. Usually, SARs installed at a fixed location and projects graphical information onto the physical objects or video see-through displays provides the augmented imagery. For example, mirror-like large screens enable customers to try on clothes without undressing by using Radio-frequency identification (RFID) (“Interactive retail systems,” n.d., “Keonn Technologies”) (figure 8).</p>
+<p><em>Figure 8</em> User try on clothes 3D. Hand gestures allow the user to select and try different clothes.</p>
+</div>
+</div>
+<div id="combining-ar-and-bci" class="section level2">
+<h2><span class="header-section-number">3.8</span> Combining AR and BCI</h2>
+<p>With the advent of new technology, researchers attempt to ameliorate the shortages and limitations of the current BCI systems by taking advantage of cutting-edge technology, such as Augmented Reality (AR). In this way, the usage of BCI becomes quite auspicious not only for simple commands but also for high-level commands. By applying a high-technological application, the efficiency of BCI utilization was aimed to increase. To make it possible to use BCI technology in a surrounding area for the users, such as their home, the aim was to decrease errors during the experiments, and to make the studies more enjoyable for users, Augmented Reality (AR) and Virtual Reality (VR) were added to the system. For example, Takano et al. (2011) utilized Augmented Reality in their research to construct an intelligent environment that is an interactive space, in which users can communicate with their surrounding area via technological gadgets. It helps the target users to perform daily activities. Another study shows that an agent robot and electronics in robot’s environment controlled successfully by applying AR technology with the BMI (Kansaku, Hata and Takano, 2010). Research by Kerous and Liarokapis (2017) examined the communication between at least two people by using EEG-based BCI. Unity Game Engine (HTC Vive) was used to display P300 letter grid. Participants sent the messages letter by letter by using ERP-based speller to achieve BrainChat. Combining different technologies may allow us to control electronic devices in the smart spaces especially it will help people with disabilities.</p>
+</div>
+<div id="limitations-and-interpretations" class="section level2">
+<h2><span class="header-section-number">3.9</span> Limitations and Interpretations</h2>
+<p>Regardless of whether self-actuated BCI or stimulus-driven BCI is used as a BCI strategy, researchers are tackling the limitation of BCI systems stemming from weak Human-Computer Interaction design or noisy signals due to the fact that the skull blocks signals generated in a certain area of the brain (Hill et al.,2011).</p>
+<p>An example of a weak HCI could be the significant difference between the performance of healthy users and the performance of locked-in state patients (Piccione et. al, 2006: Sellers &amp; Donchin, 2006). In the classical matrix speller, obtaining a high performance relies on precisely fixed eye on the target stimulus. In other words, the classical matrix speller requires overt attention (Treder &amp; Blankertz, 2010). Nonetheless, it is very difficult for locked-in patients to fix their gaze exactly on the target stimulus in densely arranged symbols due to the crowding effect and low-spatial resolution (Hill et al.,2011). Unlike overt attention, covert attention does not rely on eye movement. It is the act to distribute the attention in visual periphery without shifting the gaze to target stimuli (Treder &amp; Blankertz, 2010). On the other hand, since the number of densely packed cone receptors reduce beyond fovea and macula, identifying the target stimulus in visual periphery is more difficult. To find out whether or not eye movement affects the accuracy in ERP-based BCI, Treder, and Blankertz (2010) developed a stimulus in which letters are located on a radial layout that is called Hex-O-Spell self-actuated spelling system. Based on this study, Hex-O-Spell gave better results compared to the matrix speller in terms of accuracy. As researchers had expected, accuracy was better as well for over attention condition rather than covert attention condition.</p>
+<p>An example of noisy signals is that EMG signals are affected by unexpected muscle tension. Besides, eye blinking and muscle tension have an impact upon EEGs. In order to deal with noise in EEG arising from muscle activities and eye movements, Hofmann et al., (2008) applied a statistical procedure called windsorizing. They extracted the first and the last 10 percentile of the data.</p>
+<p>To date, the developed BCI systems are not advanced enough for people with disabilities who have trouble with everyday activities. This is because the communication rates are quite low (5-25 bits per second). In order to turn on a lamp or type a symbol in the BCI system, for example, it takes approximately 15 seconds (Takano et al., 2011). It is not time efficient and an able-bodied person would have turned on the lamp by the time the BCI system has turned it on. However, recent studies show that communication rates and accuracy promisingly increased with better research designs. In addition to BCI systems, AR systems and combination of both systems may enable us to control electronic devices in the real world environment (Navarro, 2004). Another study showed that Humanoid Robots can successfully complete particular everyday tasks such as pouring milk over a bowl by using hierarchical EEG-based BCI. Their design allows users to complete both relatively complex and basic tasks by using brain signals (Bryan et al., 2011). ALS patients or person suffering from voluntary muscle control problems may transport himself/herself with an EEG-based BCI adapted wheelchair (Iturrate et al., 2009). Researchers are also examining the combination of VR, AR, and BCI systems to improve rehabilitation and therapy techniques. For example, Mirror Box Therapy (MTB) displays illusory movements which correspond to patient’s brain activity to move healthy or injured limbs (Regenbrecht et al., 2014).</p>
+<p>With the improvement of the Human-Computer Interaction design in BCI, signal acquisition techniques and BCI strategies, new BCI systems will facilitate both able-bodied and disabled people’s everyday activities. Perhaps, the integration of neurologically disabled people and amputees into society will be possible with proliferated intelligent environments especially in hospitals, nursing homes, and rehabilitation centers. It will help them operate devices without using muscles or experience cultural and natural activities in an intelligent environment. For instance, an ALS patient could experience mountain climbing thanks to the virtual environment. Likewise, an amputee could totally control his artificial limb via an invasive BCI system in the future.</p>
+</div>
+<div id="references-1" class="section level2">
+<h2><span class="header-section-number">3.10</span> References</h2>
+<p><em>ARCore</em>. (2018) In Wikipedia. Retrieved from <a href="https://en.wikipedia.org/wiki/ARCore" class="uri">https://en.wikipedia.org/wiki/ARCore</a></p>
+<p><em>Augmented reality</em>. (n.d.) In Wikipedia. Retrieved from: <a href="https://en.wikipedia.org/wiki/Augmented_reality" class="uri">https://en.wikipedia.org/wiki/Augmented_reality</a></p>
+<p>Azuma, R. (1997). A Survey of Augmented Reality. <em>Presence: Teleoperators and Virtual Environments</em>, 6(4), pp.355-385.</p>
+<p>Azuma, R., Baillot, Y., Behringer, R., Feiner, S., Julier, S. and MacIntyre, B. (2001). Recent advances in augmented reality. <em>IEEE Computer Graphics and Applications</em>, 21(6), pp.34-47.</p>
+<p>Bichlmeier, C., Wimmer, F., Heining, S. M., &amp; Navab, N. (2007). Contextual Anatomic Mimesis Hybrid In-Situ Visualization Method for Improving Multi-Sensory Depth Perception in Medical Augmented Reality. 2007 6th IEEE and ACM International Symposium on Mixed and Augmented Reality. <a href="doi:10.1109/ismar.2007.4538837" class="uri">doi:10.1109/ismar.2007.4538837</a></p>
+<p>Billinghurst, M., Clark, A., and Lee, G. (2015). A Survey of Augmented Reality. <em>Foundations and Trends® in Human-Computer Interaction</em>, 8(2-3), pp.73-272.</p>
+<p>Blum, T., Stauder, R., Euler, E., &amp; Navab, N. (2012, November). Superman-like X-ray vision: Towards brain-computer interfaces for medical augmented reality. In<em>Mixed and Augmented Reality (ISMAR), 2012 IEEE International Symposium on</em>(pp. 271-272). IEEE.</p>
+<p>Bogue, R. (2010). Brain-computer interfaces: control by thought. Industrial Robot: An International Journal, 37(2), 126-132.</p>
+<p>Bryan, M., Green, J., Chung, M., Chang, L., Scherer, R., Smith, J. and Rao, R. (2011). An adaptive brain-computer interface for humanoid robot control. <em>2011 11th IEEE-RAS International Conference on Humanoid Robots</em>.</p>
+<p>Chayer, C. and Freedman, M. (2001). Frontal lobe functions. <em>Current Neurology and Neuroscience Reports</em>, 1(6), pp.547-552.</p>
+<p>Fatourechi, M., Bashashati, A., Ward, R. K., &amp; Birch, G. E. (2007). EMG and EOG artifacts in brain-computer interface systems: A survey. Clinical Neurophysiology, 118(3), 480-494.</p>
+<p>Google/Google Developers/ ARCore. (2018). Retrieved from: <a href="https://developers.google.com/ar/discover/" class="uri">https://developers.google.com/ar/discover/</a></p>
+<p>Hatsopoulos, N. G., &amp; Donoghue, J. P. (2009). The science of neural interface systems. Annual review of neuroscience, 32, 249.</p>
+<p>Hill, J., Brunner, P., &amp; Vaughan, T. (2011). Interface design challenge for brain-computer interaction. In<em>Foundations of Augmented Cognition. Directing the Future of Adaptive Systems</em>(pp. 500-506). Springer Berlin Heidelberg.</p>
+<p>Hoffmann, U., Vesin, J. M., Ebrahimi, T., &amp;Diserens, K. (2008). An efficient P300-based brain-computer interface for disabled subjects.<em>Journal of neuroscience methods</em>,<em>167</em>(1), 115- 125.</p>
+<p>Iturrate, I., Antelis, J., Kubler, A. and Minguez, J. (2009). A Noninvasive Brain-Actuated Wheelchair Based on a P300 Neurophysiological Protocol and Automated Navigation. <em>IEEE Transactions on Robotics</em>, 25(3), pp.614-627.</p>
+<p>Kansaku, K. (2011). Brain–machine interfaces for persons with disabilities. In <em>Systems Neuroscience and Rehabilitation</em>(pp. 19-33). Springer Japan.</p>
+<p>Kansaku, K., Hata, N., &amp; Takano, K. (2010). My thoughts through a robots eyes: An augmented reality-brain–machine interface. <em>Neuroscience Research,</em> <em>66</em>(2), 219-222. <a href="doi:10.1016/j.neures.2009.10.006" class="uri">doi:10.1016/j.neures.2009.10.006</a></p>
+<p>Keonn Technologies - Interactive retail systems. (n.d.). Retrieved from <a href="https://www.keonn.com/systems/view-all-3.html" class="uri">https://www.keonn.com/systems/view-all-3.html</a></p>
+<p>Kerous, B., &amp; Liarokapis, F. (2017). BrainChat - A Collaborative Augmented Reality Brain Interface for Message Communication. 2017 IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct). <a href="doi:10.1109/ismar-adjunct.2017.91" class="uri">doi:10.1109/ismar-adjunct.2017.91</a></p>
+<p>Krevelen,V, Rick &amp; Poelman, Ronald. (2010). A Survey of Augmented Reality Technologies, Applications and Limitations. <em>International Journal of Virtual Reality</em> (ISSN 1081-1451). 9. 1.</p>
+<p>Lalor, E., Kelly, S., Finucane, C., Burke, R., Smith, R., Reilly, R. and McDarby, G. (2005). <em>Steady-State VEP-Based Brain-Computer Interface Control in an Immersive 3D Gaming Environment</em>.</p>
+<p>Lebedev, M. A., &amp;Nicolelis, M. A. (2006). Brain–machine interfaces: past, present and future. TRENDS in Neurosciences, 29(9), 536-546.</p>
+<p>Levine, S. P., Huggins, J. E., BeMent, S. L., Kushwaha, R. K., Schuh, L. A., Passaro, E. A., … &amp; Ross, D. A. (1999). Identification of electrocorticogram patterns as the basis for a direct brain interface. Journal of clinical neurophysiology, 16(5), 439.</p>
+<p>Microsoft HoloLens. (2018<em>). Microsoft.</em> Retrieved from <a href="https://www.microsoft.com/en-us/hololens/why-hololens" class="uri">https://www.microsoft.com/en-us/hololens/why-hololens</a></p>
+<p>Müller-Putz, G., Scherer, R., &amp; Pfurtscheller, G. (2007). Game-like training to learn single s witch operated neuroprosthetic control. In BRAINPLAY 07 Brain-Computer Interfaces and Games Workshop at ACE (Advances in Computer Entertainment) 2007 (p. 41).</p>
+<p>Navarro, K. F. (2004). Wearable, wireless brain computer interfaces in augmented reality environments. In Proceedings of the IEEE International Conference on Information Technology: Coding and Computing, volume 2, pages 643–647.</p>
+<p>Piccione, F., Giorgi, F., Tonin, P., Priftis, K., Giove, S., Silvoni, S., …&amp;Beverina, F. (2006). P300-based brain computer interface: reliability and performance in healthy and paralysed users.<em>Clinical neurophysiology</em>,<em>117</em>(3), 531-537.</p>
+<p>Regenbrecht, H., Hoermann, S., Ott, C., Muller, L. and Franz, E. (2014). Manipulating the Experience of Reality for Rehabilitation Applications. <em>Proceedings of the IEEE</em>, 102(2), pp.170-184.</p>
+<p>Sellers, E. W., &amp; Donchin, E. (2006). A P300-based brain–computer interface: initial tests by ALS patients.<em>Clinical neurophysiology</em>,<em>117</em>(3), 538-548.</p>
+<p>Scherer, R., Chung, M., Lyon, J., Cheung, W., &amp; Rao, R. P. (2010, October). Interaction With Virtual And Augmented Reality Environments Using Non-Invasive Brain-Computer Interfacing. In<em>1st International Conference on Applied Bionics and Biomechanics</em>.</p>
+<p>Takano, K., Hata, N., &amp; Kansaku, K. (2011). Towards intelligent environments: an augmented reality–brain–machine interface operated with a see-through head-mount display. Frontiers in neuroscience, 5.</p>
+<p>Treder, M. S., &amp;Blankertz, B. (2010). Research (C) overt attention and visual speller design in an ERP-based brain-computer interface.<em>Behav. Brain Funct</em>,<em>6</em>, 1-13.</p>
+<p>Wagner, D., Pintaric, T., Ledermann, F., &amp; Schmalstieg, D. (2005). Towards Massively Multi-user Augmented Reality on Handheld Devices. <em>Pervasive Computing</em>, 208–219. <a href="doi:10.1007/11428572\_13" class="uri">doi:10.1007/11428572\_13</a></p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="computational-classification-techniques-for-biomedical-and-clinical-big-data.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="a-methodology-for-microdosing-research-cognitive-behavioral-tasks-as-investigative-tools-for-tracking-low-dose-effects-of-psilocybin.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/03-Ergun_AR.Rmd",
+"text": "Edit"
+},
+"download": ["OER_bookdown.pdf", "OER_bookdown.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
